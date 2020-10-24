@@ -25,8 +25,17 @@ header {
     padding: 10px;
 }
 
-code{
-    background:rgb(255, 251, 251);
+code {
+    background: rgb(255, 251, 251);
+}
+
+.bsDrop>a>li {
+    background: cyan;
+    font-family: 'Nunito', sans-serif;
+    /* left:0 !important; */
+    margin-left: -10px !important;
+    /* padding:30px !important; */
+    font-size: 2rem;
 }
 
 .main-nav {
