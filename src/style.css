@@ -37,8 +37,6 @@ header {
     background: white;
 }
 
-
-
 #header-wrapper {
     display: flex;
     flex-direction: row;
@@ -51,13 +49,21 @@ code {
     background: rgb(255, 251, 251);
 }
 
+.bsDrop {
+    border-bottom: 1px dashed grey;
+}
+
 .bsDrop>a>li {
     /* background: cyan; */
     font-family: 'Nunito', sans-serif;
     /* left:0 !important; */
     margin-left: -10px !important;
     /* padding:30px !important; */
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.bsDrop>a>li:hover {
+    background-color: honeydew;
 }
 
 .main-nav {
