@@ -25,6 +25,10 @@ header {
     padding: 10px;
 }
 
+code{
+    background:rgb(255, 251, 251);
+}
+
 .main-nav {
     text-decoration: none;
     list-style: none;
@@ -67,7 +71,7 @@ h3 {
 
 p, label, fieldset, #submit {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 li {
@@ -85,5 +89,5 @@ li {
 }
 
 #outputText {
-    margin-left: 15px;
+    text-align: center;
 }
