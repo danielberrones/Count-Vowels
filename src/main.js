@@ -16,10 +16,20 @@ function getString() {
     } else if (totalVowels.length === 1) {
         document.getElementById("outputText").innerHTML = `You wrote: ${str}`;
         document.getElementById("outputLength").innerHTML = `There is 1 vowel in "${str}"`;
-        
+
     } else {
         document.getElementById("outputText").innerHTML = `You wrote: ${str}`;
         document.getElementById("outputLength").innerHTML = `There are ${totalVowels.length} vowels in "${str}"<br>They are ${totalVowels}`;
 
+    }
+}
+
+function clearText() {
+    if (document.getElementById("userText").value) {
+        document.getElementById("userText").value = '';
+        document.getElementById("outputText").innerHTML = '';
+        document.getElementById("outputLength").innerHTML = '';
+    } else {
+        alert("false");
     }
 }

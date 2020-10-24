@@ -30,8 +30,9 @@
         <div id="header-wrapper">
             <img src="https://codecondo.com/wp-content/uploads/2015/03/JavascriptLogo-copy-520x2451.png" alt="Main Logo"
                 style="max-width:100%;" id="main-logo">
+                <!-- START BOOTSTRAP MOBILE DROPDOWN -->
                 <div class="dropdown">
-                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    <button type="button" class="btn btn-primary dropdown-toggle customBtn" data-toggle="dropdown">
                       MENU
                     </button>
                     <div class="dropdown-menu bsDrop">
@@ -40,6 +41,7 @@
                       <a class="dropdown-item" href="#"><li class="bsDrop">Python</li></a>
                     </div>
                   </div>
+                <!-- END BOOTSTRAP MOBILE DROPDOWN -->
                 
                 
             <h3>Computer Coding Academy</h3>
@@ -51,6 +53,7 @@
         <h1>Regular Expressions</h1>
         <p>There are two ways to create a <code>RegExp</code> object: a literal notation and a constuctor.</p>
         <ol>
+            <p>I've been learning about the following methods:</p>
             <li>String.prototype.match()</li>
             <li>RegExp.prototype.dotAll</li>
             <li>RegExp.prototype.flags</li>
@@ -63,6 +66,7 @@
                 <label>Count Vowels</label>
                 <input type="text" id="userText" name="userText" />
                 <input type="button" id="submit" value="Enter" onclick="getString()" />
+                <input type="button" id="clear" value="Clear" onclick="clearText()" />
             </fieldset>
         </form>
         <h2 id="outputText"></h2>

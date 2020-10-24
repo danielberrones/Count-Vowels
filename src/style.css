@@ -9,13 +9,20 @@ html {
 }
 
 body {
-    background-color: rgb(251, 250, 249);
+    background-color: snow;
 }
 
 #main-logo {
     height: 12%;
     width: 12%;
 }
+
+@media only screen and (min-width: 800px) {
+    .dropdown{
+        display: none;
+    }
+}
+
 
 @media only screen and (max-width: 800px) {
     #header-wrapper {
@@ -50,8 +57,18 @@ code {
 }
 
 .bsDrop {
-    border-bottom: 1px dashed grey;
+    border-bottom: 1px solid chocolate;
 }
+
+.customBtn{
+    background-color: crimson;
+    border: darkkhaki;
+}
+
+.customBtn:hover{
+    background-color: rgb(215, 11, 161);
+}
+
 
 .bsDrop>a>li {
     /* background: cyan; */
@@ -62,8 +79,8 @@ code {
     font-size: 1.2rem;
 }
 
-.bsDrop>a>li:hover {
-    background-color: honeydew;
+.bsDrop>a:hover {
+    background-color: rgb(252, 255, 208);
 }
 
 .main-nav {
@@ -94,6 +111,9 @@ font-family: 'Roboto', sans-serif;
 h1 {
     font-family: 'Nunito', sans-serif;
     font-size: 1.7rem;
+    background: rgb(251, 249, 244);
+    width:75%;
+    padding:10px;
 }
 
 h2 {
@@ -126,5 +146,8 @@ li {
 }
 
 #outputText {
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 2px;
+    background: darkorchid;
+    color:white;
 }
