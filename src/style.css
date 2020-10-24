@@ -9,7 +9,8 @@ html {
 }
 
 body {
-    background-color: snow;
+    background: rgb(251, 249, 244);
+
 }
 
 #main-logo {
@@ -17,14 +18,13 @@ body {
     width: 12%;
 }
 
-@media only screen and (min-width: 800px) {
-    .dropdown{
+@media only screen and (min-width: 900px) {
+    .dropdown {
         display: none;
     }
 }
 
-
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     #header-wrapper {
         /* justify-content: center; */
         /* background: cyan; */
@@ -36,6 +36,9 @@ body {
         /* display: none; */
         height: 30%;
         width: 30%;
+    }
+    .desktopLinks{
+        display: none;
     }
 }
 
@@ -60,15 +63,14 @@ code {
     border-bottom: 1px solid chocolate;
 }
 
-.customBtn{
+.customBtn {
     background-color: crimson;
     border: darkkhaki;
 }
 
-.customBtn:hover{
+.customBtn:hover {
     background-color: rgb(215, 11, 161);
 }
-
 
 .bsDrop>a>li {
     /* background: cyan; */
@@ -92,8 +94,15 @@ code {
     display: inline;
 }
 
+.desktopNav {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.4rem;
+    list-style: none;
+    display: inline;
+}
+
 section {
-    background: #FFF5EE;
+    background-color: whitesmoke;
     height: 500px;
     width: 100%;
     margin: 50px auto;
@@ -111,9 +120,8 @@ font-family: 'Roboto', sans-serif;
 h1 {
     font-family: 'Nunito', sans-serif;
     font-size: 1.7rem;
-    background: rgb(251, 249, 244);
-    width:75%;
-    padding:10px;
+    width: 75%;
+    padding: 10px;
 }
 
 h2 {
@@ -142,12 +150,13 @@ li {
 }
 
 #userText {
-    width: 500px;
+    width: 65%;
 }
 
 #outputText {
     /* text-align: center; */
     margin-left: 2px;
     background: darkorchid;
-    color:white;
+    color: white;
+    padding:10px;
 }
